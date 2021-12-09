@@ -16,8 +16,11 @@
     <tbody>
         @foreach(var cat in Model)
             {
-                <td>@cat.CategoryID</td>
-                <td>@cat.CategoryName</td>
+        <tr>
+            <td>@cat.CategoryID</td>
+            <td>@cat.CategoryName</td>
+        </tr>
+                
             }
     </tbody>
 </table>
